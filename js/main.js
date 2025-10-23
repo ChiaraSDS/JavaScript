@@ -36,11 +36,11 @@ function construirMensaje(datos, temas) {
     Quisiera coordinar una reunión el ${datos.dia} a las ${datos.hora}.
     Temas de interés: ${listaTemas}.
 
-    A la espera de confirmación de la misma. 🎂`;
+    A la espera de confirmación de la misma.`;
     return mensaje;
 }
 
-alert("Bienvenido al simulador de reservas de Empresa de Tortas 🎂");
+alert("Bienvenido al simulador de reservas de Empresa de Tortas");
 
 const datos = pedirDatosCliente();
 const temasSeleccionados = elegirTemas();
